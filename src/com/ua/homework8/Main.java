@@ -4,7 +4,9 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
+
         int arr[] = new int[10];
+
         fillRandomArray(arr);  // Task 1
         printArray(arr);  // Task 2
         System.out.println();
@@ -98,7 +100,6 @@ public class Main {
         }
 
         return sum;
-
     }
 
     static boolean isEmptyNullArray (int arr[]) {
