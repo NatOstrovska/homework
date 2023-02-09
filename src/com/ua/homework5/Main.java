@@ -5,9 +5,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
         //  Program 1
         int number1 = 10;
         int number2 = -10;
+
+
         if (number1 > number2) {
             System.out.println("number " + number1 + " is greater than " + number2);
         } else {
@@ -34,7 +37,12 @@ public class Main {
             System.out.println("number " + number + " is odd");
         }
 
+
+
     }
+
+
+
 }
 
 
