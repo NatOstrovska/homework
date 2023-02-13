@@ -3,6 +3,9 @@ package com.ua.homework8;
 import java.util.Random;
 
 public class Main {
+
+
+
     public static void main(String[] args) {
 
         int arr[] = new int[10];
@@ -55,6 +58,8 @@ public class Main {
         }
         return minValue;
     }
+
+
 
     // Task 4
     static int getMaxArraysValue(int arr[]) {
