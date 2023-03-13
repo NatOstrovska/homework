@@ -45,6 +45,8 @@ public enum DaysOfWeek {
 
     public static void main(String[] args) {
         for (DaysOfWeek day: DaysOfWeek.values()) {
+            System.out.print(day.dayOfWeek);
+            System.out.print("  ");
             System.out.println(day.getDayOfWeek());
         }
     }
