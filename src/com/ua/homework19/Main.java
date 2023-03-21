@@ -11,7 +11,7 @@ public class Main {
         Set<Integer> linkedHashSet = new LinkedHashSet<>();
         Set<Integer> treeSet = new TreeSet<>();
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1000; i++) {
             hashSet.add(random.nextInt(1, 51));
             linkedHashSet.add(random.nextInt(1, 51));
             treeSet.add(random.nextInt(1, 51));
