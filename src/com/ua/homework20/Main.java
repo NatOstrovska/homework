@@ -22,6 +22,7 @@ public class Main {
         map.put("абрикос", List.of("apricot", "アプリコット", "Aprikose"));
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Enter word: ");
         String word = scanner.nextLine();
 
